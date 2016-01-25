@@ -43,6 +43,7 @@ void StringController :: start()
 	cout << getString() << " is the string right now " << endl;
 	cout << "Type in a new Value for string please" << endl;
 	string tempWords;
+	cin >> tempWords;
 	setString(tempWords);
 	stringStuff();
 
